@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a2ef2dc-7651-4af6-9f66-bd71ccd5d32d" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../hog/.idea/hog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.ok_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.ok_messages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/.ok_storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/dice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/common_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/favicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/css/2.17e5ed98.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/css/2.d9ad5f5c.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/css/main.dfa42325.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.14215b64.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.14215b64.chunk.js.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.36722391.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.36722391.chunk.js.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.50b6458a.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.50b6458a.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.cbd40270.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/2.cbd40270.chunk.js.LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/main.00c07ad4.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/main.25a3d700.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/main.4d7efde4.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/main.4f75ff99.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/main.65d320cb.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/runtime-main.53f79363.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/gui_files/static/js/runtime-main.71e877b4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/hog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/hog_gui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/proj01.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/04a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/04b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/check_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/construct_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/tests/play_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hog/ucb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.hw01.py.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.idea/hw01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.ok_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.ok_messages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/.ok_storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/hw01.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/hw01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw01/ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hw02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ok_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ok_storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/construct_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw02.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inclass/inclass_higher_order_function/fucntion_as_return_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/.ok_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/.ok_messages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/.ok_storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/lab00.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/lab00.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab00/tests/python-basics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.idea/lab01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.ok_history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/.ok_storage" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/lab01.ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/lab01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/ok" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/clones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/control.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/debugging-quiz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/if-statements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab01/tests/short-circuit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2M8efsLeAV6l95uBlBRD3svJvD8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5a2ef2dc-7651-4af6-9f66-bd71ccd5d32d" name="变更" comment="" />
+      <created>1677153745312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677153745312</updated>
+      <workItem from="1677153746456" duration="1681000" />
+      <workItem from="1677209657563" duration="130000" />
+      <workItem from="1677240453262" duration="333000" />
+      <workItem from="1677301811746" duration="8000" />
+      <workItem from="1677375101970" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
