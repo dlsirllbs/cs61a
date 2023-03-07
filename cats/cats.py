@@ -100,6 +100,21 @@ def autocorrect(user_word, valid_words, diff_function, limit):
     """
     # BEGIN PROBLEM 5
     "*** YOUR CODE HERE ***"
+    diffs = [] #create a list to store the diffence of the whole valid_words
+    position = 0
+    if user_word in valid_words:
+        return user_word
+    else:
+        for i in range(len(valid_words)):
+            diffs.append(diff_function(user_word, valid_words[i], limit))
+        if min(diffs) > limit:
+            return user_word
+        else:
+            for i in range(len(diffs)):
+                if diffs[i] == min(diffs):
+                    position = i
+                    break
+        return valid_words[position]
     # END PROBLEM 5
 
 
