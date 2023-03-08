@@ -72,13 +72,11 @@ def accuracy(typed, reference):
     reference_words = split(reference)
     # BEGIN PROBLEM 3
     "*** YOUR CODE HERE ***"
-    key = split(typed)
-    value = split(reference)
-    i, right, whole = 0, 0, len(key)
-    if whole == 0 or len(key) == 0:
+    i, right, whole = 0, 0, len(typed_words)
+    if whole == 0 or len(typed_words) == 0:
         return 0.0
-    for i in range(min(len(value), len(key))):
-        if key[i] == value[i]:
+    for i in range(min(len(reference_words), len(typed_words))):
+        if typed_words[i] == reference_words[i]:
             right += 1
     return right / whole * 100
     # END PROBLEM 3
@@ -105,12 +103,12 @@ def autocorrect(user_word, valid_words, diff_function, limit):
         return user_word
     else:
         for i in range(len(valid_words)):
-            diffs.append(diff_function(user_word, valid_words[i], limit))
+            diffs.append(diff_function(user_word, valid_words[i], limit)) #把valid_word的差距映射到一个顺序表上
         if min(diffs) > limit:
             return user_word
         else:
             return valid_words[diffs.index(min(diffs))]
-    #END PROBLEM 5
+    # END PROBLEM 5
 
 def shifty_shifts(start, goal, limit):
     """A diff function for autocorrect that determines how many letters
@@ -118,7 +116,13 @@ def shifty_shifts(start, goal, limit):
     their lengths.
     """
     # BEGIN PROBLEM 6
-    assert False, 'Remove this line'
+    if limit < 0: return 0
+    if len(start) == 1 or len(goal) == 1:
+        if start[0] == goal[0]: return abs(len(start) - len(goal))
+        else: return 1 + abs(len(start) - len(goal))
+    else:
+        if start[0] == goal[0]: return shifty_shifts(start[1:], goal[1:], limit)
+        else: return 1 + shifty_shifts(start[1:], goal[1:], limit - 1)
     # END PROBLEM 6
 
 
