@@ -3,3 +3,5 @@ FIST TIME USE GIT
 solve cats problem 5
 2023-03-08
 solve cats problem 6
+2023-03-10
+solve cats problem 7 and finish phase 2
