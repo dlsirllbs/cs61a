@@ -166,6 +166,14 @@ def report_progress(typed, prompt, user_id, send):
     """Send a report of your id and progress so far to the multiplayer server."""
     # BEGIN PROBLEM 8
     "*** YOUR CODE HERE ***"
+    count = 0
+    for i in range(len(typed)):
+        if typed[i] == prompt[i]:
+            count += 1
+        else: break
+    send({'id': user_id, 'progress': count / len(prompt)})
+    return count / len(prompt)
+
     # END PROBLEM 8
 
 
@@ -192,6 +200,7 @@ def time_per_word(times_per_player, words):
     """
     # BEGIN PROBLEM 9
     "*** YOUR CODE HERE ***"
+    
     # END PROBLEM 9
 
 
