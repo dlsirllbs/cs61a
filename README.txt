@@ -5,3 +5,5 @@ solve cats problem 5
 solve cats problem 6
 2023-03-10
 solve cats problem 7 and finish phase 2
+2023-03-12
+solve problem 8 and problem 9
