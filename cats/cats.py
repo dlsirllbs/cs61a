@@ -222,6 +222,20 @@ def fastest_words(game):
     word_indices = range(len(all_words(game)))    # contains an *index* for each word
     # BEGIN PROBLEM 10
     "*** YOUR CODE HERE ***"
+    # creat a list of lists,one for each player, representing the words each player typed fastest
+    lists = []
+    for _ in player_indices:
+        lists.append([])
+    # loop through every single word
+        #for the player that typed that word the fastest, append it to their respective list
+        #remember use 'word_at' and 'word_index'!
+    for i in word_indices:
+        min_index = 0
+        for j in range(len(all_times(game)) - 1):
+            if time(game, min_index, i) > time(game, j + 1, i):
+                min_index = j + 1
+        lists[min_index].append(word_at(game, i))
+    return lists
     # END PROBLEM 10
 
 
