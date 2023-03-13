@@ -230,11 +230,11 @@ def fastest_words(game):
         #for the player that typed that word the fastest, append it to their respective list
         #remember use 'word_at' and 'word_index'!
     for i in word_indices:
-        min_index = 0
+        word_index = 0
         for j in range(len(all_times(game)) - 1):
-            if time(game, min_index, i) > time(game, j + 1, i):
-                min_index = j + 1
-        lists[min_index].append(word_at(game, i))
+            if time(game,   word_index, i) > time(game, j + 1, i):
+                word_index = j + 1
+        lists[word_index].append(word_at(game, i))
     return lists
     # END PROBLEM 10
 
