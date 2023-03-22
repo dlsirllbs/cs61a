@@ -46,7 +46,7 @@ def free_bacon(score):
 
     # Trim pi to only (score + 1) digit(s)
     # BEGIN PROBLEM 2
-    "*** YOUR CODE HERE ***"    
+    "*** YOUR CODE HERE ***"
     i = 0
     while i < 100 - score:
         i += 1
@@ -110,7 +110,7 @@ def swine_align(player_score, opponent_score):
     if gcd < 10:
         return False
     elif gcd >= 10:
-        return True        
+        return True
     # END PROBLEM 4a
 
 
