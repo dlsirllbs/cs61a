@@ -44,11 +44,16 @@ def planet(size):
     """Construct a planet of some size."""
     assert size > 0
     "*** YOUR CODE HERE ***"
+    # a planet is represented using a two-element list where the first element is
+    # the string 'planet'
+    # and the second element is its size.
+    return ['planet', size]
 
 def size(w):
     """Select the size of a planet."""
     assert is_planet(w), 'must call size on a planet'
     "*** YOUR CODE HERE ***"
+    return w[1]
 
 def is_planet(w):
     """Whether w is a planet."""
@@ -105,6 +110,22 @@ def balanced(m):
     True
     """
     "*** YOUR CODE HERE ***"
+    # return wether m is balanced :
+    # condition1: The torque applied by its left arm is equal to that applied by its right arm.
+    # The torque of the left arm is the length of the left rod multiplied by the total
+    # weight hanging from that rod. Likewise for the right. For example, if the left arm has a
+    # length of 5, and there is a mobile hanging at the end of the left arm of weight 10,
+    # the torque on the left side of our mobile is 50.
+    # condition2: Each of the mobiles hanging at the end of its arms is balanced.
+    if is_planet(m):
+        return True
+    else:
+        left_end, right_end = end(left(m)), end(right(m))
+        #condition2
+        if balanced(left_end) == False or balanced(right_end) == False:
+            return False
+        #condition1
+        return total_weight(left_end) * length(left(m)) == total_weight(right_end) * length(right(m))
 
 def totals_tree(m):
     """Return a tree representing the mobile with its total weight at the root.
