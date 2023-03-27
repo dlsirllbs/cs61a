@@ -20,6 +20,20 @@ def make_bank(balance):
     """
     def bank(message, amount):
         "*** YOUR CODE HERE ***"
+        nonlocal balance
+        match message:
+            case 'withdraw':
+                minus = balance - amount
+                if minus < 0:
+                    return 'Insufficient funds'
+                else:
+                    balance = minus
+                    return balance
+            case 'deposit':
+                balance += amount
+                return balance
+            case _:
+                return 'Invalid message'
     return bank
 
 
