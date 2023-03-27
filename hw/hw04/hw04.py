@@ -66,6 +66,19 @@ def make_withdraw(balance, password):
     True
     """
     "*** YOUR CODE HERE ***"
+    wronglist = []
+    def password_withdraw(amount, tryword):
+        nonlocal balance, password, wronglist
+        while tryword != password and len(wronglist) < 3:
+            wronglist.append(tryword)
+            return 'Incorrect password'
+        if len(wronglist) == 3:
+            return 'Frozen account. Attempts: ' + str(wronglist)
+        if amount > balance:
+            return 'Insufficient funds'
+        balance -= amount
+        return balance
+    return password_withdraw
 
 
 def repeated(t, k):
