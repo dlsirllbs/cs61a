@@ -152,11 +152,9 @@ def permutations(seq):
     #inductive step:
     else:
         first = seq[0]
-        for temp in permutations(seq[1:]):
+        for temp in permutations(list(seq[1:])):
             for index in range(len(seq)):
-                pList = list(temp)
-                pList.insert(index, first)
-                yield pList
+                yield temp[:index] + [first] +temp[index:]
 
 
 
