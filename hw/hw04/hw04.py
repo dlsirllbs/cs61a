@@ -103,6 +103,16 @@ def repeated(t, k):
     """
     assert k > 1
     "*** YOUR CODE HERE ***"
+    key, count = next(t), 0
+    while count != k :
+        temp = next(t)
+        if key != temp:
+            key = temp
+            count = 0
+        if key == temp:
+            count += 1
+    return key
+
 
 
 def permutations(seq):
@@ -118,7 +128,7 @@ def permutations(seq):
     >>> try: #this piece of code prints "No more permutations!" if calling next would cause an error
     ...     next(perms)
     ... except StopIteration:
-    ...     print('No more permutations!')
+    ...     print('No more permutations!') 
     No more permutations!
     >>> sorted(permutations([1, 2, 3])) # Returns a sorted list containing elements of the generator
     [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
@@ -128,6 +138,27 @@ def permutations(seq):
     [['a', 'b'], ['b', 'a']]
     """
     "*** YOUR CODE HERE ***"
+    # recursive induction:
+    # pemutations([1, 2, 3])
+    # => 1 + pemutations([2, 3]) ## gives 1 + {[2, 3], [3, 2]} => [1, 2, 3], [1, 3, 2]
+    # => 2 + pemutations([1, 3]) ## gives 2 + {[1, 3], [3, 1]} => [2, 1, 3], [2, 3, 1]
+    # => 3 + pemutations([1, 2]) ## gives 3 + {[1, 2], [2, 1]} => [3, 1, 2], [3, 2, 1]
+
+    # simplest question: what is the simplest question in handle
+
+    #base case:
+    if len(seq) == 1:
+        yield seq
+    #inductive step:
+    else:
+        first = seq[0]
+        for temp in permutations(seq[1:]):
+            for index in range(len(seq)):
+                pList = list(temp)
+                pList.insert(index, first)
+                yield pList
+
+
 
 
 def make_joint(withdraw, old_pass, new_pass):
