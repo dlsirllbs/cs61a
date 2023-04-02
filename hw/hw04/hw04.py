@@ -156,9 +156,6 @@ def permutations(seq):
             for index in range(len(seq)):
                 yield temp[:index] + [first] +temp[index:]
 
-
-
-
 def make_joint(withdraw, old_pass, new_pass):
     """Return a password-protected withdraw function that has joint access to
     the balance of withdraw.
