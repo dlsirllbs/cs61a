@@ -150,6 +150,7 @@ class HarvesterAnt(Ant):
         """
         # BEGIN Problem 1
         "*** YOUR CODE HERE ***"
+        
         # END Problem 1
 
 
