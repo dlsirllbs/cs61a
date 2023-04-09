@@ -392,11 +392,8 @@ class QueenAnt(ScubaThrower, Counter):  # You should change this line
         """
         # BEGIN Problem EC
         "*** YOUR CODE HERE ***"
-        self.armor -= amount
-        if self.isreal and  self.armor <= 0: bees_win()
-        if self.armor <= 0:
-            self.place.remove_insect(self)
-            self.death_callback()
+        ThrowerAnt.reduce_armor(self, amount)
+        if self.isreal and self.armor <= 0: bees_win()
 
     def remove_from(self, place):
         if not self.isreal:
