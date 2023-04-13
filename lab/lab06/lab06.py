@@ -80,14 +80,10 @@ def insert_items(lst, entry, elem):
     True
     """
     "*** YOUR CODE HERE ***"
-    lst1 = []
-    for item in lst[:]:
-        lst1.append(item)
-        if item == entry:
-            lst1.append(elem)
-    for i in range(len(lst1)):
-        if i < len(lst):
-            lst[i] = lst1[i]
-        else:
-            lst.append(lst1[i])
+    index = 0
+    while index < len(lst):
+        if lst[index] == entry:
+            lst.insert(index + 1, elem)
+            index += 1
+        index += 1
     return lst
