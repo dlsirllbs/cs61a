@@ -116,7 +116,7 @@ class Coin:
 
     def worth(self):
         "*** YOUR CODE HERE ***"
-        return self.cents + (Mint.current_year - self.year - 50)if Mint.current_year - self.year >= 50 else self.cents
+        return self.cents + (Mint.current_year - self.year - 50) if Mint.current_year - self.year >= 50 else self.cents
 
 class Nickel(Coin):
     cents = 5
@@ -141,6 +141,12 @@ def store_digits(n):
     >>> print("Do not use str or reversed!") if any([r in cleaned for r in ["str", "reversed"]]) else None
     """
     "*** YOUR CODE HERE ***"
+    link = Link.empty
+    while n // 10 > 0:
+        link = Link(n % 10, link)
+        n //= 10
+    link = Link(n % 10, link)
+    return link
 
 
 def is_bst(t):
