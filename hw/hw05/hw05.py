@@ -104,9 +104,11 @@ class Mint:
 
     def create(self, kind):
         "*** YOUR CODE HERE ***"
+        return kind(self.year)
 
     def update(self):
         "*** YOUR CODE HERE ***"
+        self.year = Mint.current_year
 
 class Coin:
     def __init__(self, year):
@@ -114,6 +116,7 @@ class Coin:
 
     def worth(self):
         "*** YOUR CODE HERE ***"
+        return self.cents + (Mint.current_year - self.year - 50)if Mint.current_year - self.year >= 50 else self.cents
 
 class Nickel(Coin):
     cents = 5
